@@ -1,6 +1,6 @@
 ENV['VAGRANT_DEFAULT_PROVIDER'] = 'docker'
 $USERNAME = "developer"
-$PROJECT = "galaxy-census-cli"
+$PROJECT = "galaxy-census-frontend"
 
 Vagrant.configure("2") do |config|
   config.ssh.username = $USERNAME
